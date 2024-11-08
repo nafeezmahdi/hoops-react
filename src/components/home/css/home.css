@@ -1,0 +1,100 @@
+.outline--none {
+  outline: none;
+}
+
+.carousel {
+  @apply relative w-full;
+}
+.carousel.carousel-slider {
+  @apply relative m-0 overflow-hidden;
+}
+
+.carousel * {
+  box-sizing: border-box;
+}
+
+.carousel .slider-wrapper {
+  @apply overflow-hidden m-auto w-full;
+  transition: height 0.15s ease-in;
+}
+
+.carousel .slider {
+  @apply m-0 p-0 relative list-none w-full;
+}
+
+.carousel .slider.animated {
+  transition: all 0.35s ease-in-out;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider {
+  -ms-box-orient: horizontal;
+  display: -moz-flex;
+  display: flex;
+}
+
+.carousel .slide {
+  @apply min-w-full m-0 relative text-center;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  @apply flex-col;
+  flex-flow: column;
+}
+
+.bg-hero {
+  background-image: url("../../../assets/image/hero-bg.png");
+}
+
+.slide-link {
+  @apply bg-[#FDDC8D] text-[#151010] px-4  py-3 sm:px-5 sm:py-4 lg:px-6 lg:py-5 2xl:px-8 2xl:py-5 rounded-lg font-medium text-sm sm:text-base lg:text-lg hover:bg-[#fcdf9b] transition-all duration-150 lg:gap-4 lg:[&>img]:hover:translate-x-1 min-w-[10rem] lg:min-w-[16rem] grid grid-cols-[auto,auto] items-center justify-center mx-auto gap-2;
+}
+
+.slide-img {
+  @apply h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 transition-all duration-150 ease-out ml-2;
+}
+
+.home-container {
+  @apply py-10 sm:py-12 md:py-14 xl:py-16 2xl:py-20;
+}
+
+.about-img {
+  @apply mx-auto h-full w-full lg:w-auto max-h-[16rem] lg:max-h-[30rem] xl:max-h-[40] 2xl:max-h-[50] aspect-square object-cover rounded-xl;
+}
+
+.about-title {
+  @apply inline-block text-black text-xs sm:text-sm md:text-base xl:text-lg px-4 py-2 bg-[#F6EBD4] font-medium;
+}
+
+.about-text {
+  @apply text-[#353535] text-xs sm:text-sm md:text-base xl:text-lg inline-block mx-auto text-center lg:text-left max-w-[100ch] lg:max-w-none;
+}
+
+.about-link {
+  @apply bg-[#8B432A] text-white px-4 py-3 sm:px-5 sm:py-4 lg:px-6 lg:py-4 rounded-md text-[0.625rem] sm:text-xs lg:text-base hover:bg-[#A04A2F]/80 transition-all duration-150 flex items-center gap-2 lg:gap-4 lg:[&>img]:hover:translate-x-1;
+}
+
+.solution-text {
+  @apply text-xs sm:text-sm md:text-base xl:text-lg inline-block mx-auto text-center;
+}
+
+.bg-contact {
+  background-image: url("../../../assets/contact-us-bg.svg");
+}
+
+.mail-title {
+  @apply text-white font-semibold text-sm sm:text-base xl:text-xl 2xl:text-2xl inline-block mx-auto;
+}
+
+.mail-form {
+  @apply bg-white max-w-2xl mx-auto w-full grid grid-cols-[2fr,1fr] gap-4 py-2 px-2 lg:px-4 lg:py-3 rounded-xl sm:rounded-2xl lg:rounded-3xl;
+}
+
+.mail-btn {
+  @apply bg-secondary-500 text-gray-900 font-semibold px-4 py-3 sm:px-4 sm:py-3 lg:px-6 lg:py-2 rounded-xl text-[0.625rem] sm:text-xs lg:text-base hover:bg-[#8B432A]
+   hover:!text-white transition-all duration-150;
+}
+
+.story-item {
+  @apply grid gap-2 bg-white rounded-xl shadow-lg w-full max-w-sm mx-auto overflow-hidden hover:shadow-xl  xl:hover:scale-105 duration-300 transition-all
+  xl:hover:-translate-y-2;
+}
