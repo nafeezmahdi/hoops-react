@@ -1,0 +1,39 @@
+.about-container {
+  @apply sm:py-12 md:py-14 xl:py-16 2xl:py-20;
+}
+
+.hero-container {
+  @apply container mx-auto px-4 grid gap-4 place-items-center lg:gap-16 lg:grid-cols-2 items-center lg:items-center lg:place-items-start;
+}
+
+.hero-text-container {
+  @apply grid gap-8 justify-items-center lg:justify-items-start items-center lg:items-start py-10;
+}
+
+.hero-img {
+  @apply h-full w-full lg:w-auto max-h-[10rem] sm:max-h-[20rem] xl:max-h-[40rem] aspect-square object-cover xl:translate-y-[15%];
+}
+
+.about-intro-container {
+  @apply container mx-auto px-4 grid gap-4 place-items-center lg:gap-16 items-center lg:items-center lg:place-items-start;
+}
+
+.intro-title {
+  @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl text-[#212121] font-semibold;
+}
+
+.intro-text {
+  @apply text-[#908E8E] text-base leading-7 md:text-lg md:leading-8 xl:text-xl xl:leading-9 text-center lg:text-left;
+}
+
+.intro-btn {
+  @apply bg-[#FDDC8D] text-[#151010] px-8 py-3 sm:px-5 sm:py-4 lg:px-8 lg:py-5 font-medium text-sm sm:text-base lg:text-lg hover:bg-[#fcdf9b] transition-all duration-150 lg:gap-4 lg:[&>img]:hover:translate-x-1 lg:min-w-[16rem] grid grid-cols-[auto,auto] items-center justify-center rounded-full;
+}
+
+.vision-title {
+  @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl text-[#212121] font-semibold;
+}
+
+.vision-text {
+  @apply text-[#908E8E] text-base leading-7 md:text-lg md:leading-8 xl:text-xl xl:leading-9 text-center lg:text-left;
+}

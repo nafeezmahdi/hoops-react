@@ -1,0 +1,16 @@
+.contact-hero {
+  @apply bg-cover bg-center bg-no-repeat h-full w-full pb-20 sm:pb-24 md:pb-36 xl:pb-52 pt-14 sm:pt-16 md:pt-24 xl:pt-44;
+}
+
+.contact-content {
+  @apply container bg-white grid gap-8 lg:grid-cols-2 lg:justify-center lg:items-center p-8 md:p-12 lg:p-14 xl:p-16 2xl:p-20 
+    rounded-2xl w-[calc(100%-5rem)] max-w-[75rem] mx-auto mt-[-6rem] md:mt-[-8rem] xl:mt-[-10rem] 2xl:mt-[-12rem];
+}
+
+.contact-input {
+  @apply border border-[#E5E5E5] focus:outline-none rounded-md px-3 py-2 text-[#3C4245] text-xs md:text-sm xl:text-base focus:ring-gray-300 focus:ring-1;
+}
+
+.contact-btn {
+  @apply bg-[#8B432A] hover:bg-[#8B432A]/90 text-white rounded-xl px-6 py-3;
+}

@@ -41,10 +41,6 @@
   flex-flow: column;
 }
 
-.bg-hero {
-  background-image: url("../../../assets/image/hero-bg.png");
-}
-
 .slide-link {
   @apply bg-[#FDDC8D] text-[#151010] px-4  py-3 sm:px-5 sm:py-4 lg:px-6 lg:py-5 2xl:px-8 2xl:py-5 rounded-lg font-medium text-sm sm:text-base lg:text-lg hover:bg-[#fcdf9b] transition-all duration-150 lg:gap-4 lg:[&>img]:hover:translate-x-1 min-w-[10rem] lg:min-w-[16rem] grid grid-cols-[auto,auto] items-center justify-center mx-auto gap-2;
 }

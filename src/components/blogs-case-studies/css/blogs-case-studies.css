@@ -1,0 +1,15 @@
+.bnc-container {
+  @apply py-10 sm:py-12 md:py-14 xl:py-16 2xl:py-20;
+}
+
+.bnc-hero-container {
+  @apply container mx-auto px-4 grid gap-8 place-items-center lg:gap-16 lg:grid-cols-2 items-center lg:items-center lg:place-items-start;
+}
+
+.search-bnc {
+  @apply bg-white grid grid-cols-[auto,1fr] items-center px-3 py-2 rounded-xl transition-all duration-150 ease-in-out focus-within:ring-2 ring-gray-200;
+}
+
+.search-bnc-btn {
+  @apply bg-[#8B432A] text-white font-semibold rounded-lg px-4 py-3 sm:px-5 sm:py-3 lg:px-6 lg:py-3 text-[0.625rem] sm:text-xs lg:text-base hover:bg-[#A04A2F]/80 transition-all duration-150 flex items-center justify-center mx-auto gap-2 lg:gap-4 lg:[&>img]:hover:translate-x-1;
+}
